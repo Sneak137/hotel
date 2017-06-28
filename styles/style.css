@@ -1,0 +1,438 @@
+* {
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ebebeb;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    float: left;
+    width: 160px;
+    line-height: 90px;
+    margin-right: 132px;
+}
+
+header {
+	background-color: #191919;
+	color: #e0e0e0;
+	height: 90px;
+}
+
+header a {
+	color: #e0e0e0;
+	text-decoration: none;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.main-nav {
+	float: left;
+	line-height: 90px;
+	font-size: 17px;
+	margin-right: 14;
+}
+
+.main-nav ul {
+}
+
+.main-nav ul li {
+	display: inline;
+	border-right: 1px solid #303030;
+	padding:0 16px 0 15px;
+}
+
+.main-nav ul li:last-child {
+	border: none;
+}
+
+.lang {
+	line-height: 90px;
+	float: right;
+}
+
+.lang select{
+	color: #fff;
+	background: transparent;
+	border: 0;
+	font-size: 12px;
+}
+
+.lang select option {
+	color: #5e5e5e;
+}
+
+/* Header Ends */
+
+/* Slider Starts */
+
+#slider {
+	height: 586px;
+	background-color: #d0d0d0;
+	position: relative;
+}
+
+.disc-inner {
+	height: 38px;
+	width: 38px;
+	border-radius: 100%;
+	background-color: #e8e8e8;
+	position: absolute;
+	top: 275px;
+}
+
+.left {
+	left: 0;
+	margin-left: 20px;
+}
+
+.right {
+	right: 0;
+	margin-right: 20px;
+}
+
+aside {
+	position: absolute;
+	top: 244px;
+	height: 83px;
+	text-align: left;
+}
+
+aside h1 {
+	line-height: 48px;
+	width: 608px;
+	background-color: #2a2a2a;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+aside h2 {
+	width: 253px;
+	line-height: 35px;
+	background-color: #52abdf;
+	color: #fff;
+	font-weight: 100px; 
+}
+
+aside h1, aside h2 {
+	text-transform: uppercase;
+	padding-left: 18px;
+}
+
+.responsive-img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+/*  Slider Ends  */
+
+.content-wrapper {
+	position: relative;
+}
+
+.content {
+	padding-top: 51px;
+	position: relative;
+}
+
+/* Book Room Start*/
+
+#book-room {
+	height: 99px;
+	border: 2px solid #a8a8a8;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 6px;
+	background: #fff;
+	position: absolute;
+	top: -51px;
+}
+
+#book-room p {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+#book-room h1 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#book-info {
+	padding: 23px 19px 22px 20px;
+	float: left;
+	border-right: 1px solid #e0e0e0;
+	background-color: #f3f3f3;
+}
+#fields {
+	float: left;
+	padding: 18px 37px 19px 20px;
+}
+
+#fields div input, #fields div select {
+	/*border-radius: 3px;*/
+	font-size: 13px;
+	font-family:'Open Sans', sans-serif;
+	border: 1px solid #e3e3e3;
+	padding: 7px 0 8px 1px;
+	line-height: 16px;
+}
+
+#fields #children select, #fields #adults select {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#fields #booking-btn input{
+	padding: 8px 11px 8px 12px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #32a2e3;
+	line-height: 17px;
+	font-size: 14px;
+}
+
+#fields label {
+	display: inline-block;
+	margin-bottom: 9px;
+}
+
+#fields div {
+	margin-right: 10px;
+}
+
+form {
+	float: left;
+}
+
+#room-type {
+	float: left;  
+}
+
+#room-type select {
+	padding: 8px 4px 6px 6px;
+}
+
+#check-in {
+	float: left;
+}
+
+#check-in input {
+	padding: 8px 0 6px 13px;
+}
+
+#check-out {
+	float: left;
+}
+
+#check-out input {
+	padding: 8px 8px 6px 12px;
+}
+
+#adults {
+	float: left;
+}
+
+#children {
+	float: left;
+}
+
+#adults select, #children select{
+	padding: 8px 9px 6px 13px;
+}
+
+
+
+form #booking-btn {
+	float: left;
+	margin-top: 24px;
+	margin-right: 0;
+}
+
+#room {
+	margin-top: 40px;
+	width: 982px;
+	padding-bottom: 225px;
+}
+
+.rooms {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.rooms img {
+	border: 1px solid #d8d9db;
+	float: left;
+}
+
+.img-text {
+	clear: both;
+}
+
+.img-text h1 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 300;
+}
+
+.img-text span {
+	font-weight: 700;
+}
+
+.img-text p {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: 400;
+}
+
+.col {
+	float: left;
+}
+
+#one {
+	padding-right: 22px;
+}
+
+#two {
+	padding: 0 22px;
+}
+
+#three {
+	padding-left: 22px;
+}
+
+#single-room {
+}
+
+#double-room {
+}
+
+#suite-room {
+}
+
+.footer-wrapper {
+	background-color: #fff;
+}
+
+footer {
+	padding: 33px 0;
+	clear: both;
+	color: #9b9a9a;
+	position: relative;
+}
+
+	footer h5, footer li {
+		font-size: 12px;
+		line-height: 17px;
+		font-weight: 400;
+	}
+
+
+
+	footer ul li {
+		float:left;
+	}
+
+	footer img {
+		position: absolute;
+		top: 26px;
+	}
+
+.footer-copy-right {
+	float: left;
+}
+
+.footer-copy-right, .footer-nav {
+	margin-top: 8px;
+}
+
+.social-media {
+	float: left;
+	padding-left: 155px;
+}
+
+	.social-media li:first-child {
+		margin-left: 0;
+	}
+
+	.social-media li:last-child {
+		margin-right: 0;
+	}
+
+	/*.social-media a{
+		height: 24px;
+		width: 24px;
+		border-radius: 100%;
+		background-color: #d1d1d1;
+		margin: 0 4px;
+	}
+*/
+	.social-media a {
+		background: url('../images/social-icons.png') no-repeat;
+		height: 31px;
+		width: 31px;
+		display: block;
+		float: left;
+	}
+
+a.twitter {
+
+}
+
+a.facebook{
+	background-position: -32px 0;
+}
+
+a.youtube {
+	background-position: -64px 0;
+}
+
+a.flickr {
+	background-position: -96px 0;
+}
+
+a.pinterest {
+	background-position: -128px 0;
+}
+
+.footer-nav {
+	float: right;
+}
+
+	.footer-nav li:first-child {
+		margin-left: 0;
+	}
+
+	.footer-nav li:last-child {
+		margin-right: 0;
+	}
+
+	.footer-nav a {
+		color: #9b9a9a;
+	}
+
+	.footer-nav li {
+		margin: 0 8px;
+	}
