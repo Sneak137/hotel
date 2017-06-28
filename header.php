@@ -16,11 +16,11 @@
 
 			<nav class="main-nav">
 				<ul>
-					<li><a href="#">Hotel</a></li>
-					<li><a href="#">Rooms &amp Suites</a></li>
-					<li><a href="#">Reservation</a></li>
+					<li><a href="./">Hotel</a></li>
+					<li><a href="rooms.php">Rooms &amp Suites</a></li>
+					<li><a href="reservation.php">Reservation</a></li>
 					<li><a href="#">Activities</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="lang">
