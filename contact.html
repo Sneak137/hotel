@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="container clearfix"> <!-- CLEARFIX -->
+			<div class="logo">
+				<h1><a href="http://localhost/hotel-master"><img src="images/logo"></a></h1>
+			</div><!-- END .logo -->
+
+			<nav class="main-nav">
+				<ul>
+					<li><a class="" href="about-us.html">About us</a></li>
+					<li><a class="" href="rooms.html">Rooms</a></li>
+					<li><a class="" href="reviews.html">Reviews</a></li>
+					<li><a class="" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="lang">
+				<select>
+					<option>EN</option>
+				</select>
+			</div>
+		</div> <!-- END .container -->
+	</header>
+<div id="contact" class="contact-container">
+	<!--<div id="subheader">
+		<h2>Contact Information</h2>
+	</div>-->
+	<article id="content">
+		<h1>Our location</h1>
+		<p class="adress">Adress: C. Ceiba, s/n, 30700 Torre-Pacheco, Murcia, Spain</p>
+		<p class="adress">Phone: +34 968 04 18 40</p>
+		<div id="map"><img class="responsive-img" src="images/building-img.jpg"></div>
+	</article>
+	<h1>Contact Form</h1>
+	<form id="contact-form">
+		<div class="form-group">
+			<p><label for="name">Name</label></p>
+			<input type="text" name="name">
+		</div>
+
+		<div class="form-group">
+			<p><label for="email">E-mail</label></p>
+			<input type="email" name="email">
+		</div>
+
+		<div class="form-group">	
+			<p><label>Subject</label></p>
+			<select>
+				<option value="" disabled selected>Select a subject</option>
+				<option>General questions</option>
+				<option>Technical issues</option>
+				<option>Jobs</option>
+			</select>
+		</div>
+		<br>
+		<p><label class ="form-group message-label">Message</label></p>
+		<textarea rows="10"></textarea><br>
+		<input type="submit" name="submit" value="Send Message">
+	</form>
+</div>
+<div class="footer-wrapper">
+		<footer class="container clearfix">i
+			<div class="footer-copy-right">
+				<h5>&copy; 2023 Paradise Hotel. All Rights Reserved.</h5>
+			</div> <!-- END .footer-copy-right -->
+				
+			<div class="social-media">
+				<a class="twitter" href="http://www.x.com"></a>
+				<a class="facebook" href="http://www.facebook.com"></a>
+				<a class="youtube" href="http://www.youtube.com"></a>
+				<a class="flickr" href="http://www.flickr.com"></a>
+				<a class="pinterest" href="http://www.pinterest.com"></a>
+			</div>
+			 <!-- END .social-media -->
+
+			<nav class="footer-nav">
+				<ul>
+					<li><a href="about-us.html">About us</a></li>
+					<li><a href="rooms.html">Rooms</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav> <!-- END .footer-nav -->	
+		</footer> <!-- END .container .clearfix -->
+	</div> <!-- END .footer-wrapper -->	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

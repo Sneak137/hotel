@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="container clearfix"> <!-- CLEARFIX -->
+			<div class="logo">
+				<h1><a href="http://localhost/hotel-master"><img src="images/logo"></a></h1>
+			</div><!-- END .logo -->
+
+			<nav class="main-nav">
+				<ul>
+					<li><a class="" href="about-us.html">About us</a></li>
+					<li><a class="" href="rooms.html">Rooms</a></li>
+					<li><a class="" href="reviews.html">Reviews</a></li>
+					<li><a class="" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="lang">
+				<select>
+					<option>EN</option>
+				</select>
+			</div>
+		</div> <!-- END .container -->
+	</header>
+<!--      START   OF    SLIDER          -->
+	<div id="slider">
+		<div class="disc-inner left">
+			<div class="arrow-left">
+			</div>
+		</div>
+		<div class="disc-inner right">
+			<div class="arrow-right">
+			</div>
+		</div>
+		<div class="container clearfix">
+			<img src="images/hotel-generic.jpg">
+			<aside>
+				<h1>The best moments are yet to be experienced</h2>
+				<h2>Amazing place to discover</h3>
+			</aside>
+		</div><!-- END .container -->
+	</div><!-- END #slider  -->
+	
+	<section class="content container">
+		<div id="book-room">
+			<div id="book-info">
+				<h1>Book a room online</h1>
+			</div><!-- END .book-info -->
+
+			<div id="fields" class="clearfix">
+				<form>
+					<div id="room-type">
+						<p>
+							<label>Type of room:</label>
+						</p>
+						<select>
+							<option value="">Select a type of room</option>
+							<option>Single Room</option>
+							<option>Double Room</option>
+							<option>Suite Room</option>
+							<option>Conference Room</option>
+						</select>
+					</div> <!-- END #room-type -->
+
+					<div id="check-in">
+						<p><label for="check-in">Check-in-date:</label></p>
+						<input type="date" name="date" id="check-in" value="DD/MM/YYYY">
+					</div> <!-- END #checkin -->
+
+					<div id="check-out">
+						<p><label for="check-out">Check-out-date:</label></p>
+						<input type="date" name="date" id="check-out" value="DD/MM/YYYY">
+					</div> <!-- END #checkout -->
+
+					<div id="adults">
+						<p><label for="adults">Adults:</label></p>
+						<select>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div> <!-- END #adults -->
+
+					<div id="children">
+						<p><label for="children">Children:</label></p>
+						<select>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div> <!-- END #children -->
+
+					<div id="booking-btn">
+						<input type="submit" name="submit" value="Book now">
+					</div> <!-- #booking-btn -->
+				</form>
+			</div><!-- END #fields -->	
+		</div> <!-- END #book-room -->
+
+	<div id="room" class="container clearfix">
+
+		<section class="col" id="one">
+			<div class="rooms">
+				<img class="responsive-img" src="images/single.jpg">
+			</div> <!-- END .rooms #single-room -->
+
+			<article class="img-text">
+				<h1>Single room <span>110 €</span></h1>
+
+				<p>Our comfortable single rooms are just the <br>right size if you are travelling alone.<br>
+				In addition to the comfortable hotel lounge,<br> the room is equipped with a Smart TV, Wi-Fi<br> and iPod docking station.	<br>With a size of 14.5 m², our single rooms<br> offer all the space and comfort you need<br> during your stay<br>
+				</p>
+				<a href="./rooms.html">More info</a>
+			</article> <!-- END .img-text -->
+		</section> <!-- END .col -->
+
+		<section class="col" id="two">
+			<div class="rooms" id="double-room">
+				<img class="responsive-img" src="images/room.jpg">
+			</div> <!-- END .rooms #double-room -->
+
+			<article class="img-text">
+				<h1>Double room <span>180 €</span></h1>
+
+				<p>Our comfortable double rooms are the <br>right size if you are travelling with<br> your partner or friend.<br>
+				In addition to the comfortable hotel lounge,<br> the room is equipped with a Smart TV, Wi-Fi<br> and iPod docking station.	<br>With a size of 21.2 m², our single rooms<br> offer all the space and comfort you need<br> during your stay<br>
+				</p>
+				<a href="./rooms.html">More info</a>
+			</article><!-- .img-text -->
+		</section> <!-- END .col -->
+
+		<section class="col" id="three">
+				<div class="rooms" id="suite-room">
+					<img class="responsive-img" src="images/suite.jpg">
+				</div> <!-- END .rooms #suite-room -->
+
+				<article class="img-text">
+					<h1>Suite room <span>210 €</span></h1>
+
+					<p>Our suite rooms are <br>perfect for a larger company<br> or if you want to stay in a very luxorious way<br>
+				In addition to the comfortable hotel lounge,<br> the room is equipped with a Smart TV, Wi-Fi,<br> HI-FI surround system, massage chair,<br> mini-bar<br> and iPod docking station.	<br>With a size of 32 m², our suite rooms<br> offer all the space and comfort<br> you need and more<br> during your stay<br>
+				</p>
+				<a href="./rooms.html">More info</a>
+				</article> <!-- .img-text -->
+		</section> <!-- END .col -->
+		<section class="col" id="four">
+			<div class="rooms" id="conference-room">
+				<img class="responsive-img" src="images/conference.jpg">
+			</div> <!-- END .rooms #conference-room -->
+
+			<article class="img-text">
+				<h1>Conference room <span>310 €</span></h1>
+
+				<p>Ensure everyone can be seen and heard clearly<br> with 
+					solutions for traditional conference rooms<br> feature a front-of-room camera, 
+					touch controller,<br> and add-ons to extend meeting capture<br> deeper in the room
+				</p>
+				<a href="./rooms.html">More info</a>
+			</article> <!-- END .img-text -->
+		</section> <!-- END .col -->
+
+		<section class="col" id="five">
+			<div class="rooms" id="weddings">
+				<img class="responsive-img" src="images/wedding.jpg">
+			</div> <!-- END .rooms #double-room -->
+
+			<article class="img-text">
+				<h1>Weddings & Parties</h1>
+
+				<p>
+				Whether you are planning a party, kickoff,<br> birthday, conference, wedding or<br> any other event,
+				 we have a place or<br> venue that fits.<br> From the lush garden to the cozy attic.
+				</p>
+				<a href="./rooms.html">More info</a>
+			</article><!-- .img-text -->
+		</section> <!-- END .col -->
+
+		<section class="col" id="six">
+				<div class="rooms" id="suite-room">
+					<img class="responsive-img" src="images/activities.jpg">
+				</div> <!-- END .rooms #suite-room -->
+
+				<article class="img-text">
+					<h1>Guest Activities</h1>
+
+					<ul>
+						<li>Daytime sport tournaments</li>
+						<li>Pool games</li>
+						<li>Live music</li>
+						<li>Disco</li>
+						<li>Golf</li>
+						<li>Playground for children</li>
+						<li>Cinema</li>
+						<li>Hiking</li>
+					</ul>
+				<a href="./rooms.html">More info</a>
+				</article> <!-- .img-text -->
+		</section> <!-- END .col -->
+	</div> <!-- END #room -->
+</section> <!-- END .content -->
+<div class="footer-wrapper">
+		<footer class="container clearfix">i
+			<div class="footer-copy-right">
+				<h5>&copy; 2023 Paradise Hotel. All Rights Reserved.</h5>
+			</div> <!-- END .footer-copy-right -->
+				
+			<div class="social-media">
+				<a class="twitter" href="http://www.x.com"></a>
+				<a class="facebook" href="http://www.facebook.com"></a>
+				<a class="youtube" href="http://www.youtube.com"></a>
+				<a class="flickr" href="http://www.flickr.com"></a>
+				<a class="pinterest" href="http://www.pinterest.com"></a>
+			</div>
+			 <!-- END .social-media -->
+
+			<nav class="footer-nav">
+				<ul>
+					<li><a href="about-us.html">About us</a></li>
+					<li><a href="rooms.html">Rooms</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav> <!-- END .footer-nav -->	
+		</footer> <!-- END .container .clearfix -->
+	</div> <!-- END .footer-wrapper -->	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
